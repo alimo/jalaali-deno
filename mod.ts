@@ -35,8 +35,8 @@ export function isValidJalaaliDate(
   jd: number,
 ): boolean {
   return (
-    jy >= -61 &&
-    jy <= 3177 &&
+    jy >= minJalaaliYear &&
+    jy <= maxJalaaliYear &&
     jm >= 1 &&
     jm <= 12 &&
     jd >= 1 &&
